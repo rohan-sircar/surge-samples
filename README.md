@@ -14,7 +14,7 @@ You can create a bank account this way:
 ```
 curl -X POST -H "content-type: application/json" \ 
 -i http://localhost:8080/bank-accounts/create \ 
---data'{"accountNumber":"4317c6cf-438c-4f36-8391-7b6b36a0e2d9","accountOwner":"foobar","securityCode":"verysecret","initialBalance":100.0}'
+--data '{"accountNumber":"4317c6cf-438c-4f36-8391-7b6b36a0e2d9","accountOwner":"foobar","securityCode":"verysecret","initialBalance":100.0}'
 ```
 
 And retrieve the balance of an account this way:
